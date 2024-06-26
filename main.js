@@ -27,10 +27,9 @@ function getThought(){
     txt.innerHTML = `${thought[random]}`
 }
 
-function animate() {
-   
-}
+
 function toogle (){
+      cookieImg.style.animation = ""
       screen1.classList.toggle('hide')  
       screen2.classList.toggle('hide')  
 }
