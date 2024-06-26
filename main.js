@@ -15,7 +15,7 @@ again.addEventListener('click',(e)=>{
 )
 
 function broken() {
-    cookieImg.style.animation = "blurry 0.1s infinite"
+   
     getThought()
     setTimeout(function(){
         toogle()
@@ -27,9 +27,10 @@ function getThought(){
     txt.innerHTML = `${thought[random]}`
 }
 
-
+function animate() {
+   
+}
 function toogle (){
-      cookieImg.style.animation = ""
       screen1.classList.toggle('hide')  
       screen2.classList.toggle('hide')  
 }
